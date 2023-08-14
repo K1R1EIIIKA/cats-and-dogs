@@ -8,8 +8,7 @@ public class LevelLogic : MonoBehaviour
     [SerializeField] private Canvas pauseCanvas;
 
     private bool _isPaused;
-
-
+    
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
