@@ -1,0 +1,1689 @@
+fileFormatVersion: 2
+guid: 2d8eb549d622e4041882929728396932
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 433
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b922063ddfeec45a5ffd95363700c6
+      internalID: -1847968768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 433
+        width: 56
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5abe8e4b7ebc4b469dbef688b1a3fd3
+      internalID: -1653359838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_2
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 433
+        width: 55
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298b4b9705acc3543bbfc337bf428681
+      internalID: 1345784374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_3
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 433
+        width: 51
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5131aeb2a2bc7fd4398e9d6b2027ad72
+      internalID: -766870914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_4
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 437
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1c7eb3f9a553645ba7e192b7bd1058
+      internalID: 1660085134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_5
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 434
+        width: 49
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff73fcb58ce9ddc4e9ef0216ca7df99c
+      internalID: -2028587327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_6
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 431
+        width: 26
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5862ae03ee64baa43bd4759870a5b5a7
+      internalID: 1588593815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_7
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 429
+        width: 56
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82749e194473b848957fff0a66b9c41
+      internalID: 441463429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_8
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 438
+        width: 86
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb42505b6da9b240a229733ee8cbdd4
+      internalID: 1333799451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_9
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 437
+        width: 86
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa06988065750fd40af9cb3e22a83d79
+      internalID: -1320768810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_10
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 346
+        width: 53
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ad4d97d356dda4f972e9e598b6c625
+      internalID: 841316054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_11
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 347
+        width: 55
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc20e2f4c742174aa547c77b0de9446
+      internalID: 1057620620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_12
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 346
+        width: 68
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b3a245d9d529a4d91f5c39b69b30ae
+      internalID: -1975955801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_13
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 347
+        width: 52
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8c5ff4376ab1f4a8337a9e1b99fb32
+      internalID: -677743206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_14
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 347
+        width: 48
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f74898d5c331e4a94737da74f4e20d
+      internalID: -1037470422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_15
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 347
+        width: 62
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398e0c4933528af47b2da9707d1b5d63
+      internalID: -480083152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 264
+        width: 48
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ca63a5795ac8548b09094dd66ce501
+      internalID: 1566819631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_17
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 263
+        width: 48
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24cb9287c56b8648b9df798e4bdbecf
+      internalID: -1344956680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_18
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 260
+        width: 47
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb70e4d8c0f6494c82c7ed941ab6c96
+      internalID: 1976523585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_19
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 259
+        width: 43
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e018548134f18f3429dae2ca87fb7209
+      internalID: 592560639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_20
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 259
+        width: 44
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf9e06b909ac244fb501afa6d181969
+      internalID: -468082041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_21
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 259
+        width: 45
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974771c4519ee07428b0d8ec2cb197e4
+      internalID: 1954114056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_22
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 260
+        width: 55
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a5495d57a09744cb23124273db27a1
+      internalID: 2057865794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_23
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 271
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2986fd52562dffb48a11929618800da5
+      internalID: -91809042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_24
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 277
+        width: 67
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3043511d38606e14a8b4b120ad393757
+      internalID: 1036291100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_25
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 277
+        width: 67
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bad94a9bcb607c42abc27400a2c8802
+      internalID: 1065061708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_26
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 272
+        width: 58
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301b8ceb9b42a024d8b4ac97abfd18f5
+      internalID: 1146772149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_27
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 268
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d8cad0f91430c4bbc3e43759dec4f1
+      internalID: 1673031979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_28
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 266
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb5b7c6d1020f4468514e7ab2dd33de
+      internalID: -1474420485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_29
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 262
+        width: 44
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182d6928d34f90f4390d3f525c0758ef
+      internalID: -1554188094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 177
+        width: 49
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6e6f234996df9439d0761fae789655
+      internalID: 1828037705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_31
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 177
+        width: 49
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9efd1797da5704ca2733eb524e2774
+      internalID: 1482549215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_32
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 174
+        width: 47
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df73e417e7d632c4e989c7959779dc0a
+      internalID: 2228824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_33
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 173
+        width: 43
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fdb2b05e7d1c545a3c61652446889f
+      internalID: -810024943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_34
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 173
+        width: 45
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8a1821277044043bee9e36acb65433
+      internalID: 1195905506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_35
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 173
+        width: 46
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b74aabf3d888c42bf6b4c1ebe2a86b
+      internalID: -64893787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_36
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 174
+        width: 55
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30b1afafdb873e4abc16cdc155b9e4b
+      internalID: 753792899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_37
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 184
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6f89ead34e1d747b39cdcde3097031
+      internalID: 281794209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_38
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 191
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435251fd58b131546b43c1a4d67930cd
+      internalID: -1112651214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_39
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 191
+        width: 67
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89ba8a1f22f80e449fa96b0bf2e8e00
+      internalID: -792197409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_40
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 185
+        width: 58
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1f5a38fe4622c45888f3311466d69b
+      internalID: 1763685772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_41
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 181
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a4f1e85f178b94baa2e622e6316bac
+      internalID: -149159796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_42
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 178
+        width: 52
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad7af6c705174742815a636994748ca
+      internalID: -1682717531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_43
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 176
+        width: 57
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e53043c07d65d84a82c8346a1218adf
+      internalID: 1127012251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_44
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 89
+        width: 49
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003d5567d6216be4eb36bba4950f7257
+      internalID: 1475674258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_45
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 89
+        width: 48
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c332e2719d27c94289b50e3481dfe75
+      internalID: 802948461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_46
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 88
+        width: 47
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1010edf6bd84946aaf0dfc50c25aad
+      internalID: -1861462955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_47
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 88
+        width: 42
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e55f4ebbac7bb48a2f1a85e7eeb4db
+      internalID: -520976652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_48
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 88
+        width: 44
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a513b5b6bf77b84bb87220bbfede59f
+      internalID: 789477302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_49
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 88
+        width: 45
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42547ff15109a33448a2b60768a6a281
+      internalID: -975563213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_50
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 87
+        width: 56
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed47d0bbf2199b54dbbe586da685734a
+      internalID: -898762462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_51
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 94
+        width: 49
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a6d1c33ea80774eb51a0a9c62a8b9d
+      internalID: -457591187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_52
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 86
+        width: 45
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567c2501d4db6f6418681a2ad60a20f4
+      internalID: 164738740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_53
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 86
+        width: 45
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5aa77e1f992df6439c42a7557166f76
+      internalID: 1549071362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_54
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 85
+        width: 45
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f03814d3e38d41449b2e83db24748cf
+      internalID: 808525645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_55
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 85
+        width: 46
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430b52ab26c293240b7566c9ff0d595c
+      internalID: -976523687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_56
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 85
+        width: 53
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f6782c9b116544996da78858e7c1c1
+      internalID: -511548836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_57
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 99
+        width: 65
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de1cac39508f734cb23c7091829e598
+      internalID: 1044333056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_58
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 9
+        width: 72
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0fcbf4bd7fc7a4ca2f09845b1fc03a
+      internalID: -909130593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_59
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 20
+        width: 80
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb82f428145b5846baf607098f79717
+      internalID: -434939598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_60
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 15
+        width: 68
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04cb8e42ef8f979409873c79859e28b8
+      internalID: -403865114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_61
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 13
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da50711ea50f5bc4db22a8e5e52d7cc2
+      internalID: -2045546724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_62
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 5
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43cc345095ce9a74ea9673186ac4aec2
+      internalID: 1752326317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_63
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 3
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864b2c24ff4f0094c90f42e68ecd2dbe
+      internalID: 158110211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_64
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 15
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b411152d32e758c4ea1b22f74c9e4393
+      internalID: 1095740782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_65
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 17
+        width: 67
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e920a0ba57f3f694a827823439908e4b
+      internalID: 713912106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_66
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 5
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67593788912145847b2e6907e377e165
+      internalID: 1310580002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_67
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 4
+        width: 64
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33216438e23f48c47848265923b598d4
+      internalID: -399392952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_68
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 0
+        width: 62
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175335a8e9133df44b865a24675351c5
+      internalID: 1559026209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_69
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 53
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742def3df84e09c44a2ccd7a7308e51b
+      internalID: -1125447529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_70
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 0
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e633200754a19ab4eb27a8ebe840b963
+      internalID: -126395141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_0: -1847968768
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_1: -1653359838
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_10: 841316054
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_11: 1057620620
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_12: -1975955801
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_13: -677743206
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_14: -1037470422
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_15: -480083152
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_16: 1566819631
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_17: -1344956680
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_18: 1976523585
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_19: 592560639
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_2: 1345784374
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_20: -468082041
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_21: 1954114056
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_22: 2057865794
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_23: -91809042
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_24: 1036291100
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_25: 1065061708
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_26: 1146772149
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_27: 1673031979
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_28: -1474420485
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_29: -1554188094
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_3: -766870914
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_30: 1828037705
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_31: 1482549215
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_32: 2228824
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_33: -810024943
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_34: 1195905506
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_35: -64893787
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_36: 753792899
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_37: 281794209
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_38: -1112651214
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_39: -792197409
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_4: 1660085134
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_40: 1763685772
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_41: -149159796
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_42: -1682717531
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_43: 1127012251
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_44: 1475674258
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_45: 802948461
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_46: -1861462955
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_47: -520976652
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_48: 789477302
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_49: -975563213
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_5: -2028587327
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_50: -898762462
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_51: -457591187
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_52: 164738740
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_53: 1549071362
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_54: 808525645
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_55: -976523687
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_56: -511548836
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_57: 1044333056
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_58: -909130593
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_59: -434939598
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_6: 1588593815
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_60: -403865114
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_61: -2045546724
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_62: 1752326317
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_63: 158110211
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_64: 1095740782
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_65: 713912106
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_66: 1310580002
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_67: -399392952
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_68: 1559026209
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_69: -1125447529
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_7: 441463429
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_70: -126395141
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_8: 1333799451
+      1669950572_33-pibig-info-p-spraiti-dlya-yuniti-oboi-36_9: -1320768810
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
