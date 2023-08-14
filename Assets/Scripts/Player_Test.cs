@@ -30,6 +30,11 @@ public class Player_Test : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
+
+    private void OnCollisionEnter2D()
+    {
+        isGround = true;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -51,7 +56,9 @@ public class Player_Test : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.W) && isGround == true)
         {
-            rb.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
+            isGround = false;
+            GetComponent<Rigidbody2D>().AddForce(new Vector3(0, 500, 0));
+            //rb.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
         }
         if (isGround == false)
         {
@@ -71,7 +78,7 @@ public class Player_Test : MonoBehaviour
         Vector2 targetVelocity = new Vector2(HorizontalMove, rb.velocity.y);
         rb.velocity = targetVelocity;
 
-        Checkgtound();
+        //Checkgtound();
 
     }
 
@@ -83,7 +90,7 @@ public class Player_Test : MonoBehaviour
         theSale.x *= -1;
         transform.localScale = theSale;
     }
-
+    /*
     private void Checkgtound()
     {
         Collider2D[] colliders = Physics2D.OverlapCircleAll(new Vector2(transform.position.x, transform.position.y + checkgroundOffsety), checkgroundRasius);
@@ -95,5 +102,5 @@ public class Player_Test : MonoBehaviour
         {
             isGround = false;
         }
-    }
+    }*/
 }
