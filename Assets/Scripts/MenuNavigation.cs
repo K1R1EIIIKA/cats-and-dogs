@@ -19,4 +19,5 @@ public class MenuNavigation : MonoBehaviour
     {
         SceneManager.LoadScene("Level 1-test");
     }
+    
 }

@@ -60,10 +60,14 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\LevelLogic.cs" />
     <Compile Include="Assets\Scripts\Nps_up_down.cs" />
+    <Compile Include="Assets\Scripts\rESTART.cs" />
     <Compile Include="Assets\Scripts\Nps_test.cs" />
     <Compile Include="Assets\Scripts\MenuNavigation.cs" />
     <Compile Include="Assets\Scripts\HelloWorld.cs" />
+    <Compile Include="Assets\Scripts\Player_death.cs" />
+    <Compile Include="Assets\Scripts\DropItem.cs" />
     <Compile Include="Assets\Scripts\Player_Test.cs" />
+    <Compile Include="Assets\Scripts\level_Manager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
