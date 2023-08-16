@@ -12,6 +12,7 @@ public class PlayerLogic : MonoBehaviour
     [SerializeField] private Animator animator;
     
     public static bool IsDead;
+    public static bool HasKey;
 
     [Range(0, 10f)] public float speed = 1f;
     [Range(0, 15f)] public float jumpForce = 8f;

@@ -9,10 +9,8 @@ public class NpcMovement : MonoBehaviour
     public float distance = 300f;
     [Range(0, 5f)] public float speed = 0.3f;
 
-    [SerializeField] private float leftBorder = 2f;
-    [SerializeField] private float rightBorder = 5f;
-    [SerializeField] private float bottomBorder = 2f;
-    [SerializeField] private float topBorder = 5f;
+    [SerializeField] private float smallBorder = 2f;
+    [SerializeField] private float bigBorder = 5f;
 
     private bool _isLeft = true;
     private bool _isFacingRight = true;
@@ -20,17 +18,17 @@ public class NpcMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        Move();
+    }
+
+    private void Move()
+    {
         if (isVertical)
-            VerticalMovement();
+            distance = transform.position.y;
         else
-            HorizontalMovement();
-    }
+            distance = transform.position.x;
 
-    private void VerticalMovement()
-    {
-        distance = transform.position.y;
-
-        if (distance > topBorder || (distance > topBorder & !_isLeft))
+        if (distance > bigBorder || (distance > bigBorder & !_isLeft))
         {
             _isMoving = false;
             if (!_isLeft)
@@ -40,7 +38,7 @@ public class NpcMovement : MonoBehaviour
             }
         }
 
-        if (distance < bottomBorder || (distance < bottomBorder & _isLeft))
+        if (distance < smallBorder || (distance < smallBorder & _isLeft))
         {
             _isMoving = true;
             if (_isLeft)
@@ -51,39 +49,18 @@ public class NpcMovement : MonoBehaviour
         }
 
         if (_isMoving)
-            transform.position = new Vector2(transform.position.x, transform.position.y + speed * Time.fixedDeltaTime);
-        else
-            transform.position = new Vector2(transform.position.x, transform.position.y - speed * Time.fixedDeltaTime);
-    }
-
-    private void HorizontalMovement()
-    {
-        distance = transform.position.x;
-        
-        if (distance > rightBorder || (distance > rightBorder & !_isLeft))
         {
-            _isMoving = false;
-            if (!_isLeft)
-            {
-                Flip();
-                _isLeft = true;
-            }
+            if (isVertical)
+                transform.position = new Vector2(transform.position.x, transform.position.y + speed * Time.fixedDeltaTime);
+            else
+                transform.position = new Vector2(transform.position.x + speed * Time.fixedDeltaTime, transform.position.y);
         }
-
-        if (distance < leftBorder || (distance < leftBorder & _isLeft))
-        {
-            _isMoving = true;
-            if (_isLeft)
-            {
-                Flip();
-                _isLeft = false;
-            }
-        }
-
-        if (_isMoving)
-            transform.position = new Vector2(transform.position.x + speed * Time.fixedDeltaTime, transform.position.y);
         else
-            transform.position = new Vector2(transform.position.x - speed * Time.fixedDeltaTime, transform.position.y);
+        {
+            if (isVertical)
+                transform.position = new Vector2(transform.position.x, transform.position.y - speed * Time.fixedDeltaTime);
+            else
+                transform.position = new Vector2(transform.position.x - speed * Time.fixedDeltaTime, transform.position.y);}
     }
 
     private void Flip()
