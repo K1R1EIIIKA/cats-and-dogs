@@ -50,13 +50,9 @@ public class PlayerLogic : MonoBehaviour
         }
 
         if (!_isGround)
-        {
             animator.SetBool("Jumping", true);
-        }
         else
-        {
             animator.SetBool("Jumping", false);
-        }
     }
 
     private void FixedUpdate()

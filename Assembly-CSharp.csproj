@@ -48,7 +48,7 @@
      <Compile Include="Assets\Scripts\LevelLogic.cs" />
      <Compile Include="Assets\Scripts\MenuNavigation.cs" />
      <Compile Include="Assets\Scripts\PlayerLogic.cs" />
-     <Compile Include="Assets\Scripts\DropItem.cs" />
+     <Compile Include="Assets\Scripts\NpcDeath.cs" />
      <Compile Include="Assets\Scripts\NpcMovement.cs" />
      <Folder Include="Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

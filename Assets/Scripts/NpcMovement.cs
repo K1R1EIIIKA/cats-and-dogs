@@ -6,16 +6,15 @@ using UnityEngine.Serialization;
 public class NpcMovement : MonoBehaviour
 {
     public bool isVertical;
-    [Range(0, 5f)] public float speed = 0.3f;
     public float distance = 300f;
+    [Range(0, 5f)] public float speed = 0.3f;
 
     [SerializeField] private float leftBorder = 2f;
     [SerializeField] private float rightBorder = 5f;
-    [SerializeField] private float topBorder = 2f;
-    [SerializeField] private float bottomBorder = 5f;
+    [SerializeField] private float bottomBorder = 2f;
+    [SerializeField] private float topBorder = 5f;
 
     private bool _isLeft = true;
-
     private bool _isFacingRight = true;
     private bool _isMoving;
 
@@ -29,7 +28,7 @@ public class NpcMovement : MonoBehaviour
 
     private void VerticalMovement()
     {
-        distance = gameObject.transform.position.y;
+        distance = transform.position.y;
 
         if (distance > topBorder || (distance > topBorder & !_isLeft))
         {
@@ -52,30 +51,28 @@ public class NpcMovement : MonoBehaviour
         }
 
         if (_isMoving)
-        {
             transform.position = new Vector2(transform.position.x, transform.position.y + speed * Time.fixedDeltaTime);
-        }
         else
-        {
             transform.position = new Vector2(transform.position.x, transform.position.y - speed * Time.fixedDeltaTime);
-        }
     }
 
     private void HorizontalMovement()
     {
-        distance = gameObject.transform.position.x; ;
+        distance = transform.position.x;
+        
         if (distance > rightBorder || (distance > rightBorder & !_isLeft))
         {
-            _isMoving  = false;
+            _isMoving = false;
             if (!_isLeft)
             {
                 Flip();
                 _isLeft = true;
             }
         }
+
         if (distance < leftBorder || (distance < leftBorder & _isLeft))
         {
-            _isMoving  = true;
+            _isMoving = true;
             if (_isLeft)
             {
                 Flip();
@@ -84,13 +81,9 @@ public class NpcMovement : MonoBehaviour
         }
 
         if (_isMoving)
-        {
-            transform.position = new Vector2(transform.position.x+speed*Time.fixedDeltaTime, transform.position.y);
-        }
+            transform.position = new Vector2(transform.position.x + speed * Time.fixedDeltaTime, transform.position.y);
         else
-        {
             transform.position = new Vector2(transform.position.x - speed * Time.fixedDeltaTime, transform.position.y);
-        }
     }
 
     private void Flip()

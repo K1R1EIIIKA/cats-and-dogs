@@ -21,7 +21,6 @@ public class LevelLogic : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(PlayerLogic.IsDead);
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (!_isPaused)
