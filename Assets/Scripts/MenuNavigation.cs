@@ -17,7 +17,13 @@ public class MenuNavigation : MonoBehaviour
 
     public static void LoadLevel1()
     {
-        SceneManager.LoadScene("Level 1-test");
+        SceneManager.LoadScene("Level 1");
     }
-    
+
+    public static void RestartLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        PlayerLogic.IsDead = false;
+        Time.timeScale = 1;
+    }
 }

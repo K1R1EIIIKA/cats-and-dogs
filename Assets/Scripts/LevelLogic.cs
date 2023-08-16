@@ -2,15 +2,26 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class LevelLogic : MonoBehaviour
 {
     [SerializeField] private Canvas pauseCanvas;
+    [SerializeField] private Canvas deathCanvas;
+
+    [SerializeField] private Transform playerObject;
+    [SerializeField] private Transform spawnPoint;
 
     private bool _isPaused;
-    
+
+    private void Start()
+    {
+        SetPlayer();
+    }
+
     private void Update()
     {
+        Debug.Log(PlayerLogic.IsDead);
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (!_isPaused)
@@ -18,6 +29,9 @@ public class LevelLogic : MonoBehaviour
             else
                 UnpauseGame();
         }
+        
+        if (PlayerLogic.IsDead)
+            Death();
     }
 
     private void PauseGame()
@@ -32,5 +46,16 @@ public class LevelLogic : MonoBehaviour
         Time.timeScale = 1;
         _isPaused = false;
         pauseCanvas.gameObject.SetActive(false);
+    }
+
+    private void Death()
+    {
+        Time.timeScale = 0;
+        deathCanvas.gameObject.SetActive(true);
+    }
+
+    private void SetPlayer()
+    {
+        playerObject.position = spawnPoint.position;
     }
 }
