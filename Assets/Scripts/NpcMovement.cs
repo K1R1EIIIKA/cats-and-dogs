@@ -31,7 +31,7 @@ public class NpcMovement : MonoBehaviour
         if (distance > bigBorder || (distance > bigBorder & !_isLeft))
         {
             _isMoving = false;
-            if (!_isLeft)
+            if (!_isLeft && !isVertical)
             {
                 Flip();
                 _isLeft = true;
@@ -41,7 +41,7 @@ public class NpcMovement : MonoBehaviour
         if (distance < smallBorder || (distance < smallBorder & _isLeft))
         {
             _isMoving = true;
-            if (_isLeft)
+            if (_isLeft && !isVertical)
             {
                 Flip();
                 _isLeft = false;
