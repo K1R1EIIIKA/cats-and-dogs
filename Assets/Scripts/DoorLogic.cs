@@ -26,6 +26,7 @@ public class DoorLogic : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        LevelLogic.IsWin = true;
+        if (PlayerLogic.HasKey)
+            LevelLogic.IsWin = true;
     }
 }

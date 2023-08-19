@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -33,6 +34,16 @@ public class PlayerLogic : MonoBehaviour
         }
     }
 
+    private void OnCollisionStay2D(Collision2D other)
+    {
+        _isGround = true;
+    }
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        _isGround = false;
+    }
+
     void Update()
     {
         _horizontalMovement = Input.GetAxisRaw("Horizontal") * speed;
@@ -44,7 +55,7 @@ public class PlayerLogic : MonoBehaviour
 
         animator.SetFloat("HorizontalMove", Mathf.Abs(_horizontalMovement));
 
-        if (Input.GetKeyDown(KeyCode.W) && _isGround)
+        if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space)) && _isGround)
         {
             _isGround = false;
             GetComponent<Rigidbody2D>().AddForce(new Vector3(0, 100 * jumpForce, 0));

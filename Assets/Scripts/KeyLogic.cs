@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class KeyLogic : MonoBehaviour
 {
-    [SerializeField] private float pickCooldown = 1.0f;
+    [SerializeField] private float pickCooldown = 0.5f;
     
     private float _startTime;
 

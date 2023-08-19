@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2024343094748564340}
   - component: {fileID: 668994864331976393}
   m_Layer: 0
-  m_Name: sheep
+  m_Name: spike
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
