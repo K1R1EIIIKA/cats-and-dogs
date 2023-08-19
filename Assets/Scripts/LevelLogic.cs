@@ -109,6 +109,7 @@ public class LevelLogic : MonoBehaviour
 
             case "Level 3":
                 winText.text = "Level 3\ncompleted";
+                winButtonText.text = "The end!";
                 MenuNavigation.Level3Completed = true;
                 break;
         }

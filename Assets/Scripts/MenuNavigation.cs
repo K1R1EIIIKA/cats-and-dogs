@@ -38,6 +38,16 @@ public class MenuNavigation : MonoBehaviour
             SceneManager.LoadScene("Level 3");
     }
 
+    public static void LoadCutscene1()
+    {
+        SceneManager.LoadScene("Cutscene");
+    }
+
+    public static void LoadCutscene2()
+    {
+        SceneManager.LoadScene("Cutscene 1");
+    }
+
     public static void RestartLevel()
     {ClickSound();
         

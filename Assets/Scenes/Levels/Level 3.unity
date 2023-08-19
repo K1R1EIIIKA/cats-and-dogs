@@ -2479,7 +2479,7 @@ MonoBehaviour:
   deathCanvas: {fileID: 373520606}
   winCanvas: {fileID: 1858000981}
   winText: {fileID: 1068941585}
-  winButtonText: {fileID: 0}
+  winButtonText: {fileID: 2022685078}
   playerObject: {fileID: 659091400}
   spawnPoint: {fileID: 1470969620}
 --- !u!4 &888724497
@@ -4072,7 +4072,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1587163738}
         m_TargetAssemblyTypeName: MenuNavigation, Assembly-CSharp
-        m_MethodName: LoadMainMenu
+        m_MethodName: LoadCutscene2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
