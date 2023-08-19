@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Audio;
 using UnityEngine;
 
 public class KeyLogic : MonoBehaviour
@@ -18,6 +19,7 @@ public class KeyLogic : MonoBehaviour
     {
         if (Time.time - _startTime > pickCooldown)
         {
+            FindObjectOfType<AudioManager>().Play("Key");
             PlayerLogic.HasKey = true;
             Destroy(gameObject);
         }

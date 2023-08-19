@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Audio;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -18,6 +19,7 @@ public class LevelLogic : MonoBehaviour
     [SerializeField] private Transform spawnPoint;
 
     private bool _isPaused;
+    private bool _firstSound = true;
 
     public static bool IsWin;
 
@@ -36,7 +38,7 @@ public class LevelLogic : MonoBehaviour
             else
                 UnpauseGame();
         }
-        
+
         if (PlayerLogic.IsDead)
             Death();
 
@@ -46,6 +48,7 @@ public class LevelLogic : MonoBehaviour
 
     private void PauseGame()
     {
+        MenuNavigation.ClickSound();
         Time.timeScale = 0;
         _isPaused = true;
         pauseCanvas.gameObject.SetActive(true);
@@ -53,6 +56,7 @@ public class LevelLogic : MonoBehaviour
 
     public void UnpauseGame()
     {
+        MenuNavigation.ClickSound();
         Time.timeScale = 1;
         _isPaused = false;
         pauseCanvas.gameObject.SetActive(false);
@@ -60,6 +64,12 @@ public class LevelLogic : MonoBehaviour
 
     private void Death()
     {
+        if (_firstSound)
+        {
+            FindObjectOfType<AudioManager>().Play("Death");
+            _firstSound = false;
+        }
+
         Time.timeScale = 0;
         deathCanvas.gameObject.SetActive(true);
     }
@@ -74,9 +84,15 @@ public class LevelLogic : MonoBehaviour
 
     private void Win()
     {
+        if (_firstSound)
+        {
+            FindObjectOfType<AudioManager>().Play("Win");
+            _firstSound = false;
+        }
+
         Time.timeScale = 0;
         winCanvas.gameObject.SetActive(true);
-        
+
         switch (SceneManager.GetActiveScene().name)
         {
             case "Level 1":
@@ -84,13 +100,13 @@ public class LevelLogic : MonoBehaviour
                 winButtonText.text = "Level 2";
                 MenuNavigation.Level1Completed = true;
                 break;
-            
+
             case "Level 2":
                 winText.text = "Level 2\ncompleted";
                 winButtonText.text = "Level 3";
                 MenuNavigation.Level2Completed = true;
                 break;
-            
+
             case "Level 3":
                 winText.text = "Level 3\ncompleted";
                 MenuNavigation.Level3Completed = true;

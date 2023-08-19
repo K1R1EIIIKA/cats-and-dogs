@@ -8,10 +8,10 @@ public class PlayerLogic : MonoBehaviour
     private float _horizontalMovement;
     private bool _isFacingRight = true;
     private Rigidbody2D _rb;
-    private bool _isGround = true;
-
+    
     [SerializeField] private Animator animator;
     
+    public static bool IsGround = true;
     public static bool IsDead;
     public static bool HasKey;
 
@@ -25,23 +25,11 @@ public class PlayerLogic : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        _isGround = true;
-
         if (other.gameObject.CompareTag("Enemy"))
         {
             IsDead = true;
             Destroy(gameObject);
         }
-    }
-
-    private void OnCollisionStay2D(Collision2D other)
-    {
-        _isGround = true;
-    }
-
-    private void OnCollisionExit2D(Collision2D other)
-    {
-        _isGround = false;
     }
 
     void Update()
@@ -55,13 +43,13 @@ public class PlayerLogic : MonoBehaviour
 
         animator.SetFloat("HorizontalMove", Mathf.Abs(_horizontalMovement));
 
-        if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space)) && _isGround)
+        if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space)) && IsGround)
         {
-            _isGround = false;
+            IsGround = false;
             GetComponent<Rigidbody2D>().AddForce(new Vector3(0, 100 * jumpForce, 0));
         }
 
-        if (!_isGround)
+        if (!IsGround)
             animator.SetBool("Jumping", true);
         else
             animator.SetBool("Jumping", false);
